@@ -10,7 +10,7 @@ const Friend = ({friend}) => {
             <h3>{name}</h3>
             <p>email:{email}</p>
             <p>phone:{phone}</p>
-            <p><Link to={`friend/${id}`}>show details</Link></p>
+            <p><Link to={`/friend/${id}`}>show details</Link></p>
             {/* [ {``} ] evave dile to er value dynamic hobe
             *dynamic er part 2 ta [friend/:friendId]
             '/' er ager ta change hobe na '/' er chng hobe 
